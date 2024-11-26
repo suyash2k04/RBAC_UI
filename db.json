@@ -1,0 +1,70 @@
+{
+  "users": [
+    {
+      "name": "John Doe",
+      "email": "john@example.com",
+      "role": "Admin",
+      "status": true,
+      "id": "88a2"
+    },
+    {
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "role": "User",
+      "status": false,
+      "id": "c5e9"
+    },
+    {
+      "id": "98aa",
+      "name": "suyash",
+      "email": "suyash@gmail.com",
+      "role": "admin",
+      "status": true
+    },
+    {
+      "id": "92ec",
+      "name": "prem",
+      "email": "prem@gmail.com",
+      "role": "Admin",
+      "status": true
+    }
+  ],
+  "roles": [
+    {
+      "name": "Admin",
+      "permissions": {
+        "read": true,
+        "write": true,
+        "delete": true
+      },
+      "id": "aaa1"
+    },
+    {
+      "name": "User",
+      "permissions": {
+        "read": true,
+        "write": false,
+        "delete": false
+      },
+      "id": "9e92"
+    },
+    {
+      "id": "6fa7",
+      "name": "president",
+      "permissions": {
+        "read": true,
+        "write": true,
+        "delete": false
+      }
+    },
+    {
+      "id": "1d45",
+      "name": "adyaska",
+      "permissions": {
+        "read": true,
+        "write": true,
+        "delete": false
+      }
+    }
+  ]
+}
